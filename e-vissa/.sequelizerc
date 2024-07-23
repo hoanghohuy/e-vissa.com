@@ -1,0 +1,7 @@
+const path = require('path');
+module.exports = {
+    config: path.resolve('src/dbx/e-vissa/config', 'config.js'),
+    'models-path': path.resolve('src/dbx/e-vissa', 'models'),
+    'seeders-path': path.resolve('src/dbx/e-vissa', 'seeders'),
+    'migrations-path': path.resolve('src/dbx/e-vissa', 'migrations'),
+};

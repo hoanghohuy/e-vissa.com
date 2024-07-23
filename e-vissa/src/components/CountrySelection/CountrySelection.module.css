@@ -1,0 +1,112 @@
+/* --------- Index page  ---------*/
+
+.index__input__left__item {
+    width: 50%;
+}
+
+.index__mobile__input__left__container,
+.index__input__left__container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.index__mobile__input__left__input input,
+.index__input__left__input input {
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+}
+.index__mobile__input__left__input input::placeholder,
+.index__input__left__input input::placeholder {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.index__mobile__input__left__item__label,
+.index__input__left__item__label {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 12px;
+    color: rgb(35, 38, 47);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+/* Mobile */
+.index__mobile__input__left__button {
+    display: none;
+}
+.index__mobile__input__left__container {
+    display: none;
+}
+
+/* --------- Application page --------- */
+.application__input__left__container {
+    display: flex;
+    gap: 24px;
+}
+.application__input__left__item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.application__input__left__item__label {
+    color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .index__input__left__container,
+    .index__input__left__button {
+        display: none;
+    }
+    /* Mobile */
+    .page__input__info__container__mobile {
+        padding: 0 48px;
+    }
+    .index__mobile__input__left__button {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 80px;
+    }
+    .index__mobile__input__left__container {
+        padding: 32px 0;
+        display: flex;
+    }
+    .index__mobile__input__left__item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Mobile */
+    .page__input__info__container__mobile {
+        padding: 0 32px;
+        border-bottom: 1px solid #e6e8ec;
+    }
+    .index__mobile__input__left__container {
+        padding: 24px 0;
+        display: flex;
+    }
+    .index__mobile__input__left__button {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 32px;
+    }
+
+    .index__mobile__input__left__container {
+        flex-direction: column;
+    }
+    .index__mobile__input__left__item {
+        width: 100%;
+    }
+    .application__input__left__container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .application__input__left__item {
+        width: 100%;
+    }
+}

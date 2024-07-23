@@ -1,0 +1,40 @@
+.note {
+    padding: 0 80px 80px 80px;
+}
+
+.note__container {
+    max-width: 1392px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.note__title {
+    color: var(--Text---01, var(--color-system-text-color-system-color-text-500, #23262f));
+    text-align: center;
+
+    /* Headline 2 */
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.96px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .note__title {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .note {
+        padding: 32px;
+    }
+
+    .note__title {
+        font-size: 26px;
+    }
+}

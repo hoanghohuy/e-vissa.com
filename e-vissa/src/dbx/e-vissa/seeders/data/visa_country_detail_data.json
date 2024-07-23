@@ -1,0 +1,15 @@
+[
+    {
+        "country": "VN",
+        "visa": 1,
+        "validity": 30,
+        "validity_type": "d",
+        "processing_times": 7,
+        "length_of_stay": 30,
+        "standard_fee": 10,
+        "standard_fee_currency": "USD",
+        "government_fee": 25,
+        "government_fee_currency": "USD",
+        "requirement_desc": "Covid-19 Vaccination"
+    }
+]

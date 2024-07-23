@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Tourist",
+        "desc": "This is the most common, which allows travelers to visit a country for tourism purposes. It typically has a limited validity period and may have restrictions on the duration of stay.",
+        "type": "E-visa"
+    },
+    {
+        "name": "Business",
+        "desc": "Business type are issued to individuals traveling for business purposes such as meetings, conferences, or negotiations. They may require additional documentation, such as an invitation letter from a host company.",
+        "type": "E-visa"
+    },
+    {
+        "name": "Student",
+        "desc": "Student type are granted to students who plan to pursue their education in a foreign country. These visas are typically issued for a specific educational institution and have restrictions related to study programs",
+        "type": "E-visa"
+    },
+    {
+        "name": "Work",
+        "desc": "Work type are issued to individuals who have secured employment in a foreign country. They permit individuals to work legally within the designated timeframe and often require sponsorship from an employer.",
+        "type": "E-visa"
+    },
+    {
+        "name": "Medical",
+        "desc": "Medical type are designed for individuals seeking medical treatment or procedures abroad. They may require supporting medical documentation and an invitation letter from a recognized medical institution.",
+        "type": "E-visa"
+    },
+    {
+        "name": "Transit",
+        "desc": "Transit type are for travelers passing through a country en route to their final destination. They are typically valid for a short period and allow a limited stay for the purpose of transit.",
+        "type": "E-visa"
+    }
+]

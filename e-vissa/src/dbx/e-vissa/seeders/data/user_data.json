@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "role": "guest",
+        "published": 1
+    },
+    {
+        "first_name": "Vu",
+        "last_name": "Thuong",
+        "email": "congthuong147@gmail.com",
+        "password": "$2a$05$NuBplfJN0NVzsUpgscX1nu2x3hPHJS/P.raJL1MuGNs7e4.tGfKHi",
+        "role": "administrator",
+        "activation": "",
+        "phone_number": "0909090909",
+        "date_of_birth": "2011-11-11",
+        "published": 1
+    },
+    {
+        "first_name": "Ho",
+        "last_name": "Hoang",
+        "email": "hhhoang.h3@gmail.com",
+        "password": "$2a$05$hIBT/8uSQiG5Yk/5TLIAR.Iojbc/U8PtjnYikCG81hYd/xTC9/.rK",
+        "role": "administrator",
+        "activation": "",
+        "phone_number": "0909090909",
+        "date_of_birth": "2011-11-11",
+        "published": 1
+    }
+]

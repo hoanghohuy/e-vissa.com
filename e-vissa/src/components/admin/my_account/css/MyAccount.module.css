@@ -1,0 +1,66 @@
+.layout {
+    background-color: #f4f5fa;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.myaccount__container {
+    overflow: hidden;
+    max-width: 1392px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.my__account__avatar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.my__account__avatar__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.label__upload {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 12px;
+    align-items: center;
+    margin: 4px auto 0;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.label__upload:hover {
+    background-color: var(--primary-color);
+}
+
+.trip__details__form__item__datepicker {
+    width: 100%;
+}
+
+.grid {
+    align-items: center;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .layout {
+        padding: 24px;
+    }
+    .grid {
+        gap: 12px;
+    }
+}

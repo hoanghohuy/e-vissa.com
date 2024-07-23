@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #3772ff;
+    --black-color: #353945;
+    --danger-color: #d32f2f;
+    --white: #ffffff;
+    --width-sidebar: 220px;
+    --width-sidebar-mobile: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button__booking__primary {
+    font-family: 'DM Sans';
+    color: #fcfcfd;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 24px;
+    border-radius: 99px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: 0.2s ease-in-out all;
+}
+
+.button__booking__primary:hover {
+    background-color: #2955bf;
+}
+
+.button__booking__primary:disabled {
+    background-color: #8fa5db;
+}
+
+.button__booking__secondary {
+    font-family: 'DM Sans';
+    color: #fcfcfd;
+    background-color: #58bd7d;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 24px;
+    border-radius: 99px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: 0.2s ease-in-out all;
+}
+
+.button__booking__secondary:hover {
+    background-color: #428e5e;
+}
+
+.button__booking__secondary:disabled {
+    background-color: #9bc2aa;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .button__booking__primary {
+        width: 100%;
+    }
+}

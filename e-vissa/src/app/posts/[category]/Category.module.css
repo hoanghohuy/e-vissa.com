@@ -1,0 +1,219 @@
+.top__category {
+    max-width: 1392px;
+    padding-top: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.top__category__title {
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.32px;
+}
+
+.top__category__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.top__category__item {
+    width: calc(50% - 16px);
+    border-radius: 12px;
+    border: 1px solid var(--grey-200, #eee);
+    background: var(--grey-00, #fff);
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+}
+
+.top__category__image {
+    width: 240px;
+    height: 174px;
+}
+
+.top__category__image__img {
+    width: 240px;
+    min-width: 240px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.top__category__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top__category__info__title {
+    width: 100%;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.top__category__info__title:hover {
+    color: var(--primary-color);
+}
+
+.top__category__info__info {
+    font-family: 'Poppins';
+    display: flex;
+    gap: 16px;
+}
+
+.top__category__info__time {
+    color: var(--neutrals-4, #777e90);
+    text-align: right;
+
+    /* Caption 2 (Medium) */
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+
+.top__category__info_author {
+    display: flex;
+    gap: 8px;
+    color: var(--neutrals-4, #777e90);
+    text-align: right;
+
+    /* Caption 2 (Medium) */
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+
+.top__category__info__desc {
+    overflow: hidden;
+    color: var(--Text---02, #686a6c);
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    /* Body 03 */
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+
+@media only screen and (max-width: 1392px) {
+    /* .top__category__info {
+        justify-content: center;
+    }
+
+    .top__category__container {
+        flex-direction: column;
+        padding: 0 48px;
+    } */
+
+    .top__category__item {
+        align-items: center;
+    }
+
+    .top__category__container {
+        padding: 0 48px;
+    }
+
+    .top__category__image {
+        width: 160px;
+        min-width: 160px;
+        height: 116px;
+    }
+
+    .top__category__image__img {
+        width: 160px;
+        min-width: unset;
+        height: 116px;
+    }
+
+    .top__category__info {
+        gap: 8px;
+    }
+
+    .top__category__info__title {
+        font-size: 18px;
+    }
+
+    .top__category__info__desc {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .top__category__info {
+        justify-content: center;
+    }
+
+    .top__category__container {
+        flex-direction: column;
+    }
+
+    .top__category__item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top__category {
+        padding-top: 48px;
+    }
+
+    .top__category__container {
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    .top__category__item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .top__category__title {
+        padding: 0 24px;
+        text-align: left;
+    }
+
+    .top__category__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .top__category__image__img {
+        width: 100%;
+        height: auto;
+    }
+    .top__category__info__desc {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+}

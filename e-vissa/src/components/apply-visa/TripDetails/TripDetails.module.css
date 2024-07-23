@@ -1,0 +1,265 @@
+.page {
+    width: 100%;
+    background: #e6e8ec;
+    position: relative;
+}
+
+.trip__details__container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 72px 0 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__mobile {
+    display: none;
+}
+
+.trip__details__main {
+    max-width: 1124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.trip__details__info,
+.trip__details__visa {
+    font-family: 'Poppins';
+    border-radius: 12px;
+    width: 731px;
+    background-color: #fcfcfd;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.trip__details__visa__title {
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__visa__item__title {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__item__text {
+    padding-top: 4px;
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip__details__submit__policy {
+    display: flex;
+    align-items: center;
+}
+
+.trip__details__submit__policy__title {
+    color: #23262f;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__submit__policy__desc {
+    color: #353945;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__submit__button {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trip__details__submit__submit {
+    font-family: 'Poppins' !important;
+    border-radius: 90px !important;
+    background: #3772ff !important;
+    display: flex !important;
+    height: 48px !important;
+    width: 168px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-transform: none !important;
+}
+
+.trip__details__info__title {
+    font-family: 'DM Sans', sans-serif;
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.trip__details__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.trip__details__form__item {
+    font-family: Poppins, sans-serif;
+    color: var(--neutrals-4, #777e90);
+    font-size: 14px;
+    line-height: 12px; /* 85.714% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.trip__details__visa {
+    border-radius: 12px;
+    background: #fcfcfd;
+    background-color: #fff;
+    display: flex;
+    width: 361px;
+    /* height: 316px; */
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.trip__details__step {
+    width: 220px;
+    padding-top: 8px;
+}
+
+.trip__details__form__item__datepicker {
+    width: 100%;
+}
+
+.trip__details__form__item__datepicker input {
+    font-family: 'Poppins';
+}
+
+.navigation__mobile {
+    display: none;
+    width: 100%;
+    padding: 0 32px;
+    padding-top: 56px;
+    gap: 16px;
+}
+.navigation__mobile__text {
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.navigation__mobile__button {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 34px;
+    cursor: pointer;
+    background: none;
+}
+
+.navigation__mobile__button:hover {
+    background-color: #ccc;
+}
+
+.form__country__residence {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1392px) {
+    .trip__details__container {
+        padding: 32px 48px 56px 48px;
+        gap: 32px;
+    }
+    .trip__details__info {
+        width: 100%;
+    }
+    .trip__details__submit {
+        gap: 8px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .trip__details__container {
+        flex-direction: column;
+    }
+
+    .trip__details__main {
+        flex-direction: column;
+        width: 100%;
+        max-width: unset;
+    }
+
+    .trip__details__visa {
+        width: 100%;
+        height: unset;
+    }
+    .navigation__mobile {
+        display: flex;
+        padding: 56px 48px 0;
+    }
+    .trip__details__step {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .trip__details__step {
+        display: none;
+    }
+    .trip__details__container {
+        padding: 32px;
+    }
+    .trip__details__main {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .trip__details__info {
+        width: 100%;
+    }
+    .trip__details__submit {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .trip__details__submit__submit {
+        width: 100% !important;
+    }
+    .navigation__mobile {
+        padding: 32px 32px 0 32px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .trip__details__submit__button {
+        width: 100%;
+    }
+}

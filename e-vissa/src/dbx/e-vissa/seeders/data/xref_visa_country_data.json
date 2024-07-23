@@ -1,0 +1,402 @@
+[
+    {
+        "country": "VN",
+        "allowed_country": "AR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AM",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AZ",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "IE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "IS",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AT",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PL",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BY",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PT",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BA",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BN",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "BG",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "KZ",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CA",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "QA",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "DE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CL",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CO",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "IN",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CZ",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AD",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "LI",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MC",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "HR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "DK",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CY",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "TL",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "EE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "GE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "KR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "US",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "HU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "GR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "IT",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "LV",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "RU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "GB",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "LT",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "LU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "FM",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MT",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MK",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MX",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MM",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MD",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MN",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "ME",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "NR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "JP",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "NZ",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "AU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PW",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PA",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PG",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "FI",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "FR",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "FJ",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "PH",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "MH",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "SB",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "RO",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "WS",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "SM",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "RS",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "ES",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "SE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CH",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "CN",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "UY",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "VU",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "VE",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "NL",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "NO",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "SK",
+        "visa_detail": 1
+    },
+    {
+        "country": "VN",
+        "allowed_country": "SI",
+        "visa_detail": 1
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "crons": [
+        {
+            "path": "/api/vercel_cron/every_min",
+            "schedule": "0 10 * * *"
+        }
+    ]
+}

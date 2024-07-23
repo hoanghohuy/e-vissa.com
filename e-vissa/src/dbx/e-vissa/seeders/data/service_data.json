@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Basic Service",
+        "desc": "3 working days",
+        "value": 0,
+        "value_on": "people",
+        "type": "SwiftPass",
+        "published": 1
+    },
+    {
+        "name": "Standard Service",
+        "desc": "24 working hours",
+        "value": 79,
+        "value_on": "people",
+        "type": "SwiftPass",
+        "published": 1
+    },
+    {
+        "name": "Speedy Service",
+        "desc": "4 working hours",
+        "value": 99,
+        "value_on": "people",
+        "type": "SwiftPass",
+        "published": 1
+    },
+    {
+        "name": "Traveler's Choice - Individual",
+        "desc": "Enjoy $60 in savings! Get unlimited free travel documents, swift processing, and our premium photo service for one traveler. Ideal for visas requiring embassy processing.",
+        "value": 60,
+        "value_on": "people",
+        "type": "TravelPlus",
+        "published": 0
+    },
+    {
+        "name": "Trip Assurance",
+        "desc": "Worry-free travel planning! In case of trip cancellation, we'll process a new application with no additional fee ($5/person).",
+        "value": 5,
+        "value_on": "person",
+        "type": "TravelPlus",
+        "published": 0
+    },
+    {
+        "name": "Priority Concierge",
+        "desc": "Your application is our priority! Receive a 1-hour response, 24/7, from our concierge team to assist with your visa application (60).",
+        "value": 60,
+        "value_on": "people",
+        "type": "TravelPlus",
+        "published": 0
+    }
+]

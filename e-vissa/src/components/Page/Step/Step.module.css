@@ -1,0 +1,14 @@
+.iconContainer {
+    border: 1px solid red;
+}
+
+.alternativeLabel {
+    background-color: red;
+}
+
+.step__custom__button {
+    padding: 4px 12px !important;
+    border-radius: 48px !important;
+    background: #fcfcfd !important;
+    box-shadow: 0px 4px 16px -8px rgba(15, 15, 15, 0.1);
+}

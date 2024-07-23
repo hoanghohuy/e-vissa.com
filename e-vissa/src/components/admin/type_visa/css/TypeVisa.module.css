@@ -1,0 +1,10 @@
+.label__upload {
+    display: flex;
+    color: #fff;
+    background-color: #1976d2;
+    padding: 6px 12px;
+    align-items: center;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}

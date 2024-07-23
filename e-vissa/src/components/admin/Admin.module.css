@@ -1,0 +1,130 @@
+.module__container {
+}
+
+.layout__content {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.custom__header__dialog {
+    font-family: 'DM Sans';
+    background-color: #006989;
+    color: #fff;
+    padding: 8px 10px 8px 24px;
+}
+
+.custom__header__dialog .MuiButton-root {
+    min-width: unset !important;
+}
+
+.custom__header__dialog__danger {
+    font-family: 'DM Sans';
+    background-color: var(--danger-color);
+    color: #fff;
+    padding: 8px 10px 8px 24px;
+}
+
+.custom__header__tab {
+    background-color: var(--primary-color);
+    color: #fff !important;
+}
+
+.Post__Published {
+    text-align: center;
+    color: #fff;
+    background-color: #65b741;
+    padding: 2px 12px 2px;
+    border-radius: 99px;
+}
+
+.published {
+    text-align: center;
+    color: #fff;
+    background-color: #65b741;
+    padding: 2px 12px 2px;
+    border-radius: 4px;
+}
+
+.internal {
+    text-align: center;
+    color: #ffffff;
+    background-color: #9da000;
+    padding: 2px 12px 2px;
+    border-radius: 4px;
+}
+
+.Post__unPublished {
+    text-align: center;
+    color: #fff;
+    background-color: #b6bbc4;
+    padding: 2px 12px 2px;
+    border-radius: 99px;
+}
+
+.unPublished {
+    text-align: center;
+    color: #fff;
+    background-color: #b6bbc4;
+    padding: 2px 12px 2px;
+    border-radius: 99px;
+}
+
+.Post__Draft {
+    @apply text-red-800;
+    @apply bg-red-100;
+    text-align: center;
+    padding: 2px 12px 2px;
+    border-radius: 99px;
+}
+
+.draft {
+    text-align: center;
+    color: #fff;
+    background-color: #ef4040;
+    padding: 2px 12px 2px;
+    border-radius: 4px;
+}
+
+.custom__action {
+    padding: 8px !important;
+    min-width: unset !important;
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+.custom__action__edit {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 2px 4px;
+    min-width: unset !important;
+    color: rgb(29 78 216) !important;
+    border: none;
+}
+
+.custom__action__edit:hover {
+    text-decoration: underline;
+    border: none;
+}
+
+.isManager {
+    text-align: center;
+    color: #fff;
+    background-color: #04364a;
+    padding: 2px 12px 2px;
+    border-radius: 4px;
+}
+
+.admin__label,
+.admin__label__required {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #1a1d1f;
+    font-size: 15px;
+}
+
+.admin__label__required::after {
+    content: '*';
+    margin-left: 2px;
+    color: #ef4040;
+}

@@ -1,0 +1,20 @@
+.visa__control {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.visa__input {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.export__button {
+    height: 40px !important;
+}
+
+.visa__wrapper {
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+}

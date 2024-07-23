@@ -1,0 +1,40 @@
+.label__upload {
+    font-family: 'Inter';
+    display: flex;
+    color: #fff;
+    background-color: rgb(29 78 216);
+    padding: 4px 12px;
+    height: 36px;
+    gap: 4px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.label__upload:hover {
+    opacity: 0.8;
+}
+
+.custom__action {
+    padding: 8px !important;
+    min-width: unset !important;
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+.btn__close {
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.preview__image {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}

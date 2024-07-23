@@ -1,0 +1,7 @@
+.page__most__popular__post__image {
+    /* width: 259px; */
+    height: 154px;
+    object-fit: cover;
+    border-radius: 12px;
+    overflow: hidden;
+}

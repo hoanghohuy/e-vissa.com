@@ -1,0 +1,26 @@
+.country__item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 8px;
+    border: 1px solid #ccc;
+}
+
+.country__item:hover {
+    background-color: #e6e8ec;
+}
+
+.country__item__title__name {
+    font-weight: 600;
+    font-size: 15px;
+}
+.country__item__title__phone {
+    font-size: 13px;
+}
+
+.country__wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}

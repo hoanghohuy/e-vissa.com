@@ -1,0 +1,27 @@
+.currency__item {
+    padding: 8px;
+    border-radius: 8px;
+    gap: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.currency__item:hover {
+    background-color: #e6e8ec;
+}
+
+.currency__item__title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.currency__item__symbol {
+    font-size: 13px;
+}
+
+.currency__wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}

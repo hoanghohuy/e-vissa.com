@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.contact__custom__alert {
+    border-radius: 90px !important;
+    background: #3772ff !important;
+    display: flex !important;
+    height: 48px !important;
+    width: 168px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-transform: none !important;
+}

@@ -1,0 +1,5 @@
+#mysql from docker
+/data
+/logs
+
+/jenkins

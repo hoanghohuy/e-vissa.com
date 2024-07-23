@@ -1,0 +1,10 @@
+.container {
+    padding: 24px;
+}
+
+.button {
+    border: 1px solid #3772ff;
+    position: absolute;
+    right: 12px;
+    bottom: 24px;
+}

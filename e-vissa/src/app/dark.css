@@ -1,0 +1,20 @@
+.dark .MuiOutlinedInput-root {
+    background-color: #121212 !important;
+    border: 2px solid #424244 !important;
+}
+
+.dark .MuiOutlinedInput-root input,
+.dark .MuiOutlinedInput-root input::placeholder,
+.dark .MuiOutlinedInput-root textarea,
+.dark .MuiPaginationItem-root {
+    color: #edf0fc;
+}
+
+.dark .MuiAccordion-root {
+    background: none;
+}
+
+.dark h1,
+.dark h2 {
+    color: #edf0fc;
+}

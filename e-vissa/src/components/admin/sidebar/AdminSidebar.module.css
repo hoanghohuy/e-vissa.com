@@ -1,0 +1,127 @@
+.admin__sidebar__list {
+    min-width: var(--width-sidebar);
+    position: relative;
+    border-right: 1px solid rgb(229 231 235);
+    overflow-y: auto;
+}
+
+.logo__sidebar__container {
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.logo__sidebar {
+    font-size: 20px;
+}
+
+.logo__name {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo__name::after {
+    content: 'ADMIN';
+    margin-left: 2px;
+    position: absolute;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.admin__sidebar__list__button {
+    padding: 4px !important;
+    margin: 4px 0;
+}
+
+.admin__sidebar__list__text {
+    font-weight: 500;
+}
+
+.admin__sidebar__list__icon {
+    min-width: 32px !important;
+    font-size: 17px;
+
+    justify-content: center !important;
+}
+
+.admin__sidebar__icon__mode {
+    min-width: 0 !important;
+    font-size: 20px !important;
+}
+
+.admin__sidebar__mode {
+    display: none;
+    visibility: hidden;
+}
+
+.toggle__sidebar {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.mini__menu {
+    max-width: var(--width-sidebar-mobile);
+    min-width: unset;
+    transition: 0.5s all ease;
+}
+
+.mini__menu .admin__sidebar__list {
+    width: var(--width-sidebar-mobile);
+    min-width: unset;
+}
+
+.mini__menu .admin__sidebar__list__text {
+    display: none;
+    visibility: hidden;
+}
+
+.mini__menu .logo__name {
+    display: none;
+}
+
+.mini__menu .admin__sidebar__list__button {
+    padding: 12px 4px !important;
+    justify-content: center;
+}
+
+.divider__text {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.divider__text::before,
+.divider__text::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: red;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .admin__sidebar__list {
+        width: var(--width-sidebar-mobile);
+        min-width: unset;
+    }
+    .admin__sidebar__list__text {
+        display: none;
+        visibility: hidden;
+    }
+    .logo__name {
+        display: none;
+    }
+    .admin__sidebar__list__button {
+        padding: 12px 4px !important;
+        justify-content: center;
+    }
+}

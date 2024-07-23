@@ -1,0 +1,119 @@
+.banner {
+    font-family: 'Poppins';
+    background: #2955bf;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-image: url('/icons/vector_mask.png');
+}
+
+.banner__title {
+    color: var(--White, #fff);
+    /* Headline 1 */
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 100% */
+    letter-spacing: -1.28px;
+}
+
+.more {
+    display: flex;
+    color: #fff;
+    gap: 20px;
+}
+
+.more__link {
+    text-decoration: underline !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.banner__desc {
+    color: #3bdf76;
+    text-align: center;
+
+    /* Body 2 */
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.banner__apply {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.banner__apply__item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.banner__apply__label {
+    color: #fff;
+}
+
+.container {
+    position: relative;
+}
+
+.container__faqs {
+    display: flex;
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.blog__container {
+    max-width: 1392px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container__faqs {
+        padding: 48px;
+    }
+
+    .banner__apply__item {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        padding: 48px 32px;
+        height: unset;
+    }
+    .container__faqs {
+        padding: 48px 32px;
+    }
+    .banner__apply {
+        flex-direction: column;
+        width: 100%;
+    }
+    .apply__buton__container,
+    .apply__buton__container button {
+        width: 100%;
+    }
+    .banner__title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .banner__apply__item {
+        width: 100%;
+    }
+}

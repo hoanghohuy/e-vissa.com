@@ -1,0 +1,463 @@
+.page {
+    width: 100%;
+    background: #e6e8ec;
+    position: relative;
+}
+
+.visa__services__container {
+    max-width: 1392px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 160px;
+    position: relative;
+}
+
+.visa__services__step {
+    width: 220px;
+    padding-top: 8px;
+}
+
+.visa__services__main {
+    width: 1124px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.visa__services__info {
+    border-radius: 12px;
+    width: 731px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.visa__services__visa {
+    border-radius: 12px;
+    background: #fcfcfd;
+    background-color: #fff;
+    display: flex;
+    width: 361px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: sticky;
+    top: 28px;
+}
+
+.trip__details__visa__order__title {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.trip__details__visa__order__fee__name__desc {
+    color: #353945;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__visa__order__visa {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__visa__order__fee__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.trip__details__visa__order__fee__name {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__order__fee__price {
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__visa__order__divider {
+    width: 100%;
+    height: 1px;
+    background: #e6e8ec;
+}
+
+.trip__details__visa__order__fee__total {
+}
+
+.trip__details__visa__order__fee__total__title {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__order__fee__total__desc {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__visa__order__fee__price__total__price {
+    color: #353945;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__order__fee__price__total__desc {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__visa__order__fee__price__total {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.trip__details__visa__order__visa__applicants {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.visa__services__time__fee,
+.visa__services__additional {
+    border-radius: 12px;
+    background: #fcfcfd;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.visa__services__time__fee__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.visa__services__time__fee__title {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.visa__services__time__fee__desc {
+    font-family: 'Poppins';
+    color: #777e90;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.visa__services__time__fee__list {
+    width: 100%;
+}
+
+.visa__services__time__fee__list__form__control {
+    width: 100%;
+    overflow: hidden;
+}
+
+.visa__services__additional__header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.visa__services__additional__title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.visa__services__additional__optional {
+    color: #b1b5c3;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.visa__services__additional__title__title {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.visa__services__additional__optional {
+}
+
+.visa__services__additional__desc {
+    font-family: 'Poppins';
+    color: #777e90;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.visa__services__additional__list {
+    width: 100%;
+    overflow: hidden;
+}
+
+.visa__services__additional__form__group {
+    width: 100%;
+    gap: 24px;
+}
+
+.visa__services__additional__item {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #f4f5f6;
+    width: 100%;
+    margin: 0 !important;
+    gap: 16px;
+    align-items: flex-start !important;
+}
+
+.visa__services__time__fee__list__title {
+    font-family: 'Poppins';
+    color: #23262f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    margin-bottom: 4px;
+}
+
+.visa__services__time__fee__list__desc {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-bottom: 4px;
+}
+
+.visa__services__time__fee__list__price {
+    font-family: 'Poppins';
+    color: #58bd7d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.visa__services__time__fee__list__control {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #f4f5f6;
+    width: 100%;
+    margin: 0 !important;
+    gap: 16px;
+    align-items: flex-start !important;
+}
+
+.trip__details__submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip__details__submit__policy {
+    display: flex;
+    align-items: center;
+}
+
+.trip__details__submit__policy__title {
+    color: #23262f;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__submit__policy__desc {
+    color: #353945;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__submit__button {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trip__details__submit__submit {
+    font-family: 'Poppins' !important;
+    border-radius: 90px !important;
+    background: #3772ff !important;
+    display: flex !important;
+    height: 48px !important;
+    width: 168px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-transform: none !important;
+}
+
+.contact__custom__alert {
+    border-radius: 90px !important;
+    background: #3772ff !important;
+    display: flex !important;
+    height: 48px !important;
+    width: 168px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-transform: none !important;
+}
+
+.navigation__mobile {
+    display: none;
+    width: 100%;
+    padding: 0 32px;
+    padding-top: 56px;
+    gap: 16px;
+}
+.navigation__mobile__text {
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.navigation__mobile__button {
+    border: none;
+    background: none;
+}
+
+.selected {
+    border: 2px solid #3772ff;
+    background: rgba(55, 114, 255, 0.07);
+}
+
+.small {
+    display: none;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1392px) {
+    .visa__services__step {
+        display: none;
+    }
+    .navigation__mobile {
+        display: flex;
+    }
+    .visa__services__container {
+        padding: 32px 48px 56px 48px;
+    }
+    .visa__services__main {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+    .visa__services__info {
+        width: 100%;
+    }
+    .visa__services__visa {
+        height: unset;
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .small {
+        display: flex;
+        visibility: visible;
+        width: 100%;
+    }
+    .large {
+        display: none;
+        visibility: hidden;
+    }
+    .visa__services__visa {
+        position: unset;
+        width: 100%;
+    }
+    .trip__details__submit__policy {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .visa__services__container {
+        padding: 32px 24px;
+    }
+    .visa__services__info {
+        width: 100%;
+    }
+    .visa__services__main {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .trip__details__submit {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .trip__details__submit__submit {
+        width: 100% !important;
+    }
+    .visa__services__visa {
+        width: 100%;
+    }
+    .trip__details__submit {
+        width: 100%;
+    }
+}

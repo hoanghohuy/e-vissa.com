@@ -1,0 +1,8 @@
+.ck-balloon-panel {
+    z-index: 9999 !important;
+}
+
+.ck.ck-toolbar .ck-button.ck-heading-textColor .ck-button__label {
+    background-color: #000;
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  e-vissa:
+    container_name: e-vissa
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    external: true

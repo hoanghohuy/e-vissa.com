@@ -1,0 +1,461 @@
+.page {
+    width: 100%;
+    background: #e6e8ec;
+    position: relative;
+}
+
+.add__persion_button {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+    background: #fff !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 24px !important;
+    color: #23262f !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 28px !important; /* 140% */
+    border: none !important;
+}
+
+.your__information__add__person__icon {
+    height: 28px;
+}
+
+.your__information__container {
+    max-width: 1392px;
+    margin: 0 auto;
+    padding: 72px 0 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.your__information__step {
+    width: 220px;
+    padding-top: 8px;
+}
+
+.your__information__main {
+    max-width: 1124px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.your__information__info {
+    border-radius: 12px;
+    width: 731px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.trip__details__visa {
+    font-family: 'Poppins';
+    border-radius: 12px;
+    background: #fcfcfd;
+    background-color: #fff;
+    display: flex;
+    width: 361px;
+    /* height: 254px; */
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: sticky;
+    top: 32px;
+}
+
+.trip__details__form__item__input input {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.trip__details__form__item__input input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.trip__details__visa__order__title {
+    font-family: 'DM Sans', sans-serif;
+    color: #23262f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.trip__details__visa__order__visa {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__visa__order__fee__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.trip__details__visa__order__fee__name {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__order__fee__price {
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__visa__order__divider {
+    width: 100%;
+    height: 1px;
+    background: #e6e8ec;
+}
+
+.trip__details__visa__order__fee__total {
+    color: #353945;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.trip__details__visa__order__fee__price__total {
+    color: #353945;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.trip__details__visa__item__title {
+    color: #b1b5c3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__visa__item__text {
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.trip__details__info__title {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.your__information__form__item__title {
+    font-family: 'Poppins';
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.trip__details__info__title__details {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.your__information__info__persional {
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #fcfcfd;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.your__information__persional__details {
+    position: relative;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #fcfcfd;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.your__information__form__delete {
+    color: var(--danger-color);
+    /* border: 1px solid var(--primary-color); */
+    /* padding: 4px 20px; */
+    line-height: 23px;
+    min-width: 36px;
+    text-transform: capitalize;
+}
+
+.your__information__form__passport__title {
+    font-family: 'DM Sans';
+    color: #23262f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.your__information__form__passport__desc {
+    font-family: 'Poppins';
+    color: #353945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.your__information__form__passport__import {
+    border-radius: 12px;
+    border: 1px dashed #b1b5c3;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.your__information__form__passport__import__header {
+    font-family: 'Poppins';
+    text-align: center;
+    color: #777e90;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.your__information__form__passport__title__optional {
+    color: #b1b5c3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    padding-left: 4px;
+}
+
+.your__information__form__passport__import__support {
+    font-family: 'Poppins';
+    color: #777e90;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.your__information__form__passport__import__label {
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 90px;
+    border: 2px solid #e6e8ec;
+    color: #3772ff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+.your__information__form__passport__import__label:hover {
+    cursor: pointer;
+    background-color: #f1f2f4;
+}
+
+.your__information__add__person__title {
+    font-family: 'Poppins';
+    text-transform: none;
+}
+
+.trip__details__submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip__details__submit__policy {
+    display: flex;
+    align-items: center;
+}
+
+.trip__details__submit__policy__title {
+    color: #23262f;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.trip__details__submit__policy__desc {
+    color: #353945;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.trip__details__submit__button {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trip__details__submit__submit {
+    font-family: 'Poppins' !important;
+    border-radius: 90px !important;
+    background: #3772ff !important;
+    display: flex !important;
+    height: 48px !important;
+    width: 168px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-transform: none !important;
+}
+
+.navigation__mobile {
+    display: none;
+    width: 100%;
+    padding: 0 32px;
+    padding-top: 56px;
+    gap: 16px;
+}
+.navigation__mobile__text {
+    cursor: pointer;
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.navigation__mobile__button {
+    border: none;
+    background: none;
+}
+
+.small {
+    display: none;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1392px) {
+    .your__information__container {
+        padding: 32px 48px 56px 48px;
+        gap: 32px;
+    }
+    .trip__details__visa {
+        width: 440px;
+    }
+    .your__information__info {
+        width: 100%;
+    }
+    .your__information__step {
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .your__information__step {
+        display: none;
+    }
+    .your__information__main {
+        flex-direction: column;
+        width: 100%;
+        max-width: unset;
+    }
+
+    .trip__details__visa {
+        position: unset;
+        width: 100%;
+    }
+    .navigation__mobile {
+        display: flex;
+    }
+    .small {
+        display: flex;
+        visibility: visible;
+        width: 100%;
+    }
+    .large {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .your__information__step {
+        display: none;
+    }
+    .your__information__container {
+        width: 100%;
+        padding: 32px 24px;
+    }
+    .your__information__info {
+        width: 100%;
+    }
+    .your__information__main {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .navigation__mobile {
+        display: flex;
+        width: 100%;
+        padding: 0 32px;
+        padding-top: 56px;
+        gap: 16px;
+    }
+    .navigation__mobile__text {
+        color: #23262f;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+    }
+
+    .navigation__mobile__button {
+        border: none;
+        background: none;
+    }
+    .trip__details__submit {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .trip__details__submit__submit {
+        width: 100% !important;
+    }
+    .trip__details__visa {
+        width: 100%;
+    }
+}

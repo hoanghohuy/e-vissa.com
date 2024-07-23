@@ -1,0 +1,99 @@
+.check__visa__requirements {
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), #3772ff;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.check__visa__title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.check__visa__from__to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.check__visa__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.check__visa__item__input {
+    width: 100%;
+}
+
+.check__visa__item__input input {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+
+.page__input__left__input {
+    width: 100%;
+}
+
+.page__input__left__input input {
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+}
+
+.page__input__left__input input::placeholder {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.check__visa__button {
+    border-radius: 90px;
+    background: #58bd7d;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border: none;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.check__visa__button:hover {
+    background-color: #3c955d;
+}
+
+.check__visa__item__label {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 85.714% */
+}
+
+@media only screen and (max-width: 1392px) {
+    .check__visa__title {
+        font-size: 19px;
+    }
+}
